@@ -1,0 +1,16 @@
+<!-- ID tags for string values -->
+<resources>
+    <string name="app_name">Bagel Party - Sierra Baltins</string>
+    <string name="number_of_people">Number of people?</string>
+    <string name="_5">5</string>
+    <string name="how_hungry">How hungry?</string>
+    <string name="light">Light</string>
+    <string name="medium">Medium</string>
+    <string name="starving">Starving</string>
+    <string name="total_bagels">Total bagels: ?</string>
+    <string name="calculate">Calclate</string>
+    <string name="total_bagels_num">Total packs of bagels: %d</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+</resources>
