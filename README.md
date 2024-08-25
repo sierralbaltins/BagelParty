@@ -15,3 +15,21 @@ The Bagel Party app is created using Android Studio. This app is designed with J
   Calculates the total number of bagels needed based on the party size and hunger level.
   Uses different bagels-per-person values depending on whether the hunger level is LIGHT, MEDIUM, or STARVING.
   Returns the total number of bagel packs required, rounded up to the nearest whole pack.
+
+- MainActivity.java is another file containing Java code that calculates and displays the number of bagel packs needed for a party based on the party size and the hunger level. MainActivity.java is mainly composed of constants and widgets.
+
+  The widgets included are as follows - 
+  mNumberAttendEditText: An EditText widget where users input the number of attendees.
+  mNumBagelsTextView: A TextView widget that displays the total number of bagel packs needed.
+  mHowHungryRadioGroup: A RadioGroup widget that allows users to select their hunger level.
+  
+
+  onCreate(Bundle savedInstanceState):
+  This method is called when the activity is first created.
+  It sets the layout for the activity, assigns references to the widgets (EditText, TextView, and RadioGroup), and logs a message to indicate that the activity was created.
+  calculateClick(View view) Method:
+
+  This method is triggered when the user clicks a button to calculate the number of bagel packs needed.
+  It retrieves the number of attendees from the EditText widget, handling any input errors by setting a default value of 0 if the input is invalid.
+  It checks the selected hunger level from the RadioGroup and assigns it to the BagelCalculator.HungerLevel enum.
+  It creates a BagelCalculator object using the number of attendees and selected hunger level, calculates the total number of bagel packs needed, and then displays this value in the TextView.
