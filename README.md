@@ -33,5 +33,8 @@ The Bagel Party app is created using Android Studio. This app is designed with J
   It retrieves the number of attendees from the EditText widget, handling any input errors by setting a default value of 0 if the input is invalid.
   It checks the selected hunger level from the RadioGroup and assigns it to the BagelCalculator.HungerLevel enum.
 
-  -NewAppWidget.java is another file code that can be automatically added when you right-click on MainActivity.java. Then you click on New > Widget > App Widget. After clicking App Widget, NewAppWidget.java will   be added to your file structure with Java code already inside it. NewAppWdget.java will make an app widget appear on your emulator which can be clicked on to interact and test the Bagel Party app.
-  It creates a BagelCalculator object using the number of attendees and selected hunger level, calculates the total number of bagel packs needed, and then displays this value in the TextView.
+  - NewAppWidget.java is another file code that can be automatically added when you right-click on MainActivity.java. Then you click on New > Widget > App Widget. After clicking App Widget, NewAppWidget.java will   be added to your file structure with Java code already inside it. NewAppWdget.java will make an app widget appear on your emulator which can be clicked on to interact and test the Bagel Party app.
+
+  - activity_main.xml is one of the important XML files used to customize the UI of the phone screenThe layout is created using a LinearLayout with vertical orientation and includes several UI components such as TextView, EditText, RadioGroup, RadioButton, and Button.
+
+  - new_app_widget.xml is another XML file that adjusts the UI of the app widget that is displayed on the phone screen. The layout is structured using a RelativeLayout, which allows for flexible positioning of its child elements relative to each other or the parent container. 
