@@ -1,6 +1,8 @@
 # BagelParty
 The Bagel Party app is created using Android Studio. This app is designed with Java and is composed of different files. I am using the Pixel 2 API 33 emulator that is already downloaded on Android Studio.
 
+Here is the youtube link for the screencast: https://youtu.be/ZhnaADMl9Vo
+
 Below is the algorithm I used for the Bagel Party app:
  
 
